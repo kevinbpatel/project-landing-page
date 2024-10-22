@@ -16,14 +16,27 @@ ul {
     gap: 16px;
 }
 
-.header {
-    display: flex;
-    justify-content: space-around;
+.overall-header { 
     background-color: #1F2937;
-    color: white;
-    padding: 20px;
 }
 
+.header-content { 
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.header, .header-cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 20px 0px;
+}
+
+.header-cta { 
+    padding: 100px 0px;
+}
 .left-header, .right-header { 
     display: flex;
     align-items: center;
@@ -40,3 +53,37 @@ ul {
     font: 18px;
     color: #E5E7EB;
 }
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.left-main-text { 
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.cta { 
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.supporting-text { 
+    margin: 10px 0px;
+}
+
+.sign-up {
+    border: none;
+    border-radius: 8px;
+    background: #3882F6;
+    height: auto;
+    color: white;
+    padding: 5px 20px;  
+    width: auto;        
+    align-self: flex-start; 
+    
+}
+  
